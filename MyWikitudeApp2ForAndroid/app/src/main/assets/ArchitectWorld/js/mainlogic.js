@@ -36,7 +36,7 @@ var World = {
     });
     var recipeOverlay = new AR.ImageDrawable(recipeButton, 1, {
       translate: {
-        x:-0.55,   // AR.ImageDrawableのX軸方向への平行移動と、
+        x:0.55,    // AR.ImageDrawableのX軸方向への平行移動と、
         y:0.55     // Y軸方向への平行移動を設定。
       },
       onClick : function() {
