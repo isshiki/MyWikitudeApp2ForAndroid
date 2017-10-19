@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+  <!--  基本的なメタ情報 -->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta content="width=device-width,initial-scale=1,maximum-scale=5,user-scalable=yes" name="viewport">
+
+   <title></title>
+
+  <!-- （1）Wikitude標準ライブラリのインポート -->
+  <script src="https://www.wikitude.com/libs/architect.js"></script>
+
+  <!-- （2）ADEデバッグ用のファイルをインポート -->
+  <script type="text/javascript" src="js/ade.js"></script>
+
+  <!-- （3）デザイン用のCSSファイルをインポート -->
+  <link rel="stylesheet" href="css/default.css">
+</head>
+
+<body>
+<!--<body onLoad="javascript:AR.logger.activateDebugMode();">--><!--⇒ログ出力を有効にするには、onLoad属性付きのこちらを有効にしてください。-->
+
+  <div id="topMessage" class="info">ロード中 ...　【しばらくお待ちください】</div>
+
+  <!-- （4）メインロジック用のJavaScriptファイルをインポート -->
+  <script src="js/mainlogic.js"></script>
+</body>
+
+</html>
